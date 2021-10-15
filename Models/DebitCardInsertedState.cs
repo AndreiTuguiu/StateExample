@@ -3,7 +3,7 @@ using System;
 
 namespace Models
 {
-    public class DebitCardInsertedState : IATMState
+    public class DebitCardInsertedState : ATMState
     {
         public void EjectDebitCard()
         {

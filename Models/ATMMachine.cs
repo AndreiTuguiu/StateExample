@@ -3,9 +3,9 @@ using System;
 
 namespace Models
 {
-    public class ATMMachine: IATMState
+    public class ATMMachine: ATMState
     {
-        public IATMState atmMachineState { get; set; }
+        public ATMState atmMachineState { get; set; }
 
         public ATMMachine()
         {

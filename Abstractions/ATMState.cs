@@ -1,6 +1,6 @@
 ﻿namespace Abstractions
 {
-    public interface IATMState
+    public interface ATMState
     {
         void InsertDebitCard();
         void EjectDebitCard();
